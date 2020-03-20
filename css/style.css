@@ -1,22 +1,28 @@
 body {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    color: #37231D;
+    color: rgb(43, 23, 17);
 }
 .block-logo {
     display: flex;
     justify-content: baseline;
-    color: #37231D
+
 }
 .logo-text {
     padding-top: 10px;
+    
 }
 .logo-text, .logo-text1 {
     margin: 0;
     display: flex;
+    color: rgb(43, 23, 17);
+}
+.logo-text1 {
+    font-weight: 600;
+
 }
 .navbar-menu {
-    color: #37231D; 
+    color: rgb(43, 23, 17);
 }
 .fixedratio {
     padding-top: 58.5%;
