@@ -3,6 +3,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: rgb(43, 23, 17);
 }
+.brand {
+    margin-right: 10px;
+} 
 .block-logo {
     display: flex;
     justify-content: baseline;
@@ -24,8 +27,34 @@ body {
 .navbar-menu {
     color: rgb(43, 23, 17);
 }
-.fixedratio {
-    padding-top: 58.5%;
-    background: url(../images/img3.png);
-    background-size: cover;
+.nav-phone {
+    margin-left: 45px;
+}
+.phone {
+    color: rgb(43, 23, 17);;
+}
+.hero {
+    /*position: relative;*/
+    
+    /*padding-top: 58.5%;*/
+    background: url(../images/img1.png);
+    background-size: cover ;
+    
+}
+.socials {
+    display: flex;
+    list-style-type: none;
+}
+.socials li {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.title {
+    font-size:30px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(85, 81, 83, 0.5);
+}
+.socials {
+    padding: 20px 0;
 }
