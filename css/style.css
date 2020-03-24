@@ -37,8 +37,10 @@ body {
     /*position: relative;*/
     
     /*padding-top: 58.5%;*/
-    background: url(../images/img1.png);
+    background: url(../images/img6.png);
     background-size: cover ;
+    min-height: 570px;
+    width: 100%;
     
 }
 .socials {
@@ -47,14 +49,25 @@ body {
 }
 .socials li {
     margin-right: 10px;
-    margin-top: 10px;
+  
 }
 .title {
     font-size:30px;
     margin-left: 10px;
     font-weight: bold;
     text-shadow: 4px 4px 4px rgba(85, 81, 83, 0.5);
+    
 }
 .socials {
-    padding: 20px 0;
+    padding: 20px 10px;
+}
+ @media (max-width:768px){
+     .hero{
+         min-height: 350px;
+     }
+
+     .title {
+        color: #ECDECE;  
+     }
+
 }
