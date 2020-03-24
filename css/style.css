@@ -67,11 +67,12 @@ body {
     padding: 20px 0;
 }
 .special {
-    padding: 10px 0;
-    font-weight: 600;
+    padding-bottom: 20px;
+    font-weight: 500;
     display: flex;
     align-items: center;
 }
 .caption {
     margin-left: 10px;
+    font-size: 14px;
 }
