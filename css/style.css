@@ -34,7 +34,7 @@ body {
     /*padding-top: 58.5%;*/
     background: #a78e74 url(../images/img6.png);
     background-size: cover ;
-    min-height: 590px;
+    min-height: 560px;
     width: 100%;
 }
 .socials {
@@ -56,7 +56,7 @@ body {
 }
  @media (max-width:768px){
      .hero{
-         min-height: 350px;
+         min-height: 320px;
      } 
      .title {
         color: #ECDECE;  
@@ -65,8 +65,8 @@ body {
 .specials {
     padding-top: 10px;
     display: flex;
-    background-color:#37231D; 
-    color: #ECDECE;
+    background-color:#a1896b; 
+    color: #37231d;
     
     
 }
@@ -92,7 +92,8 @@ body {
 }
 .services-subtitle {
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
+   
     padding-bottom: 10px;
 }
 .service {
