@@ -22,9 +22,9 @@ body {
 .logo-text1 {
     font-weight: 600;
 }
-.navbar-menu,
-.phone {
-    color: rgb(43, 23, 17);
+.navbar-menu, .phone
+ {
+    color: rgb(43, 23, 17); 
 }
 .nav-phone {
     margin-left: 45px;
@@ -43,7 +43,6 @@ body {
 }
 .socials li {
     margin-right: 10px;
-  
 }
 .title {
     font-size:30px;
@@ -64,30 +63,72 @@ body {
      }
 }
 .specials {
-    padding-top: 10px;
+    padding: 10px 0;
     display: flex;
     background-color:#a1896b; 
-    color: #37231d;
-    
+    color: #37231d; 
 }
 .special {
     display: flex;
-}
-img {
-    vertical-align: baseline;
+    padding: 10px 0;
 }
 .caption {
     padding-left: 10px;
     font-size: 14px;
     font-weight: 600;
 }
-/*.caption::before  {
-    content:'';
-    display: block;
-    background-color:#ECDECE;
-    height: 2px;
-    width: 100%;
-}*/
+
+.directions {
+    padding: 40px 0;
+}
+.directions-caption {
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+}
+.directions-subtitle {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.direction-block {
+   
+    padding: 40px;
+}
+.price-services {
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+}
+.direction-text-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+   
+}
+.direction-text {
+    font-size: 14px;
+}
+.wrap1, .wrap2 {
+    width: 330px;
+    height: 360px;
+    border: 1px solid;
+    
+    
+}
+.wrap1 {
+    box-shadow: 30px -30px 10px rgba(219, 178, 143, 0.2); 
+}
+
+.wrap2 {
+    box-shadow: -30px 30px 10px rgba(219, 178, 143, 0.2); 
+}
+
+
+
+
+
+
 .services {
     padding: 10px 0;
 }
