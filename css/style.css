@@ -59,7 +59,8 @@ body {
          min-height: 320px;
      } 
      .title {
-        color: #ECDECE;  
+        color: #ECDECE; 
+        font-size: 26px; 
      }
 }
 .specials {
@@ -68,25 +69,25 @@ body {
     background-color:#a1896b; 
     color: #37231d;
     
-    
 }
 .special {
-    text-align: center;
-
-    
+    display: flex;
+}
+img {
+    vertical-align: baseline;
 }
 .caption {
-    margin-top: 10px;
+    padding-left: 10px;
     font-size: 14px;
     font-weight: 600;
 }
-.caption::before  {
+/*.caption::before  {
     content:'';
     display: block;
     background-color:#ECDECE;
     height: 2px;
     width: 100%;
-}
+}*/
 .services {
     padding: 10px 0;
 }
