@@ -83,7 +83,7 @@ body {
 }
 
 .directions {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 .directions-caption {
     font-size: 16px;
@@ -94,41 +94,52 @@ body {
     font-size: 18px;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .direction-block {
    
-    padding: 40px;
+    padding: 10px;
+    
 }
 .price-services {
     display: flex;
-    margin: 40px;
+    margin: 5px;
     justify-content: center;
 }
 .direction-text-subtitle {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
    
 }
 .direction-text {
     font-size: 14px;
 }
 .wrap1, .wrap2 {
-    width: 330px;
-    height: 360px;
+    width: 240px;
+    height: 280px;
     border: 1px solid;
     
     
 }
 .wrap1 {
-    box-shadow: 30px -30px 10px rgba(219, 178, 143, 0.2); 
+    box-shadow: -20px -20px 10px rgba(219, 178, 143, 0.2); 
 }
 
 .wrap2 {
-    box-shadow: -30px 30px 10px rgba(219, 178, 143, 0.2); 
+    box-shadow: 20px -20px 10px rgba(219, 178, 143, 0.2); 
 }
 
+.exmp {
+    overflow: hidden;
+    justify-content: center;
+   
+  }
+  .exmp img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
 
+  }
 
 
 
