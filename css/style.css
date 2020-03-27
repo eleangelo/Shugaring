@@ -83,7 +83,7 @@ body {
 }
 
 .directions {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 .directions-caption {
     font-size: 16px;
@@ -93,8 +93,8 @@ body {
 .directions-subtitle {
     font-size: 18px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .direction-block {
    
@@ -118,8 +118,6 @@ body {
     width: 240px;
     height: 280px;
     border: 1px solid;
-    
-    
 }
 .wrap1 {
     box-shadow: -20px -20px 10px rgba(219, 178, 143, 0.2); 
@@ -142,17 +140,30 @@ body {
   }
 
 
-
-
 .services {
-    padding: 10px 0;
+    padding: 20px 10px;
+    background-color: rgba(219, 178, 143, 0.2);
 }
 .services-subtitle {
     text-align: center;
     font-size: 20px;
-   
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
 }
 .service {
-    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.5);
+}
+.service-subtitle {
+    text-align: center;
+    font-size: 16px;
+}
+.time {
+    font-size: 14px;
+    padding-left: 10px;
+    margin: 0;
+}
+.price {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
 }
