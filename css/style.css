@@ -32,7 +32,7 @@ body {
 
 .hero {
     /*padding-top: 58.5%;*/
-    background: #a78e74 url(../images/img6.png);
+    background: #a78e74 url(../images/img.png);
     background-size: cover ;
     min-height: 560px;
     width: 100%;
@@ -66,11 +66,15 @@ body {
     padding: 10px 0;
     display: flex;
     background-color:#a1896b; 
-    color: #37231d; 
+    color: #37231d;
+    
 }
 .special {
     display: flex;
-    padding: 10px 0;
+    padding: 10px;
+    align-items: center;
+  
+    
 }
 .caption {
     padding-left: 10px;
