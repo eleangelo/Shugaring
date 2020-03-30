@@ -12,7 +12,7 @@ body {
 
 }
 .logo-text {
-    padding-top: 10px; 
+    padding-top: 9px; 
 }
 .logo-text, .logo-text1 {
     margin: 0;
@@ -27,7 +27,24 @@ body {
     color: rgb(43, 23, 17); 
 }
 .nav-phone {
-    margin-left: 45px;
+    margin-left: 55px;
+    text-align: center;
+}
+
+.phone {
+    font-size: 14px;
+    margin: 0;
+}
+.a-phone {
+    background-color:rgb(43, 23, 17);
+    border-radius: 10px;
+    height: 30px;
+   
+}
+.record {
+    text-decoration: none;
+    color:  #ECDECE;
+    font-size: 12px;
 }
 
 .hero {
