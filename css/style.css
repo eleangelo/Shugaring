@@ -166,7 +166,8 @@ body {
     padding: 20px 10px;
    
 }
-.services-subtitle {
+.services-subtitle, 
+.about-me-subtitle {
     text-align: center;
     font-size: 20px;
     margin-bottom: 20px;
@@ -192,4 +193,18 @@ body {
     text-align: center;
     font-size: 14px;
     font-weight: 600;
+}
+.img-about {
+    width: 100%;
+    min-height: 320px;
+}
+.about-me {
+    background-color: rgba(219, 178, 143, 0.2);
+    padding-top: 20px;
+}
+.about-me-text
+{
+    padding-top:20px;
+    min-height: 320px;
+   
 }
