@@ -208,3 +208,16 @@ body {
     min-height: 320px;
    
 }
+.certificates {
+    display: flex;
+    max-width: 960px;
+    margin: 20px auto;
+}
+.sert {
+    width: 160px;
+    margin-right: 10px;
+}
+.img-sert {
+   width: 100%;
+   border: 1px solid;
+}
