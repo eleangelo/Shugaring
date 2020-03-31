@@ -44,12 +44,13 @@ body {
 .record {
     text-decoration: none;
     color:  #ECDECE;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .hero {
     /*padding-top: 58.5%;*/
-    background: #a78e74 url(../images/img.png);
+    background: #a78e74 url(../images/hero/img.png);
     background-size: cover ;
     min-height: 560px;
     width: 100%;
@@ -196,7 +197,7 @@ body {
 }
 .img-about {
     width: 100%;
-    min-height: 320px;
+    min-height: 220px;
 }
 .about-me {
     background-color: rgba(219, 178, 143, 0.2);
@@ -204,20 +205,20 @@ body {
 }
 .about-me-text
 {
-    padding-top:20px;
+    padding:20px;
     min-height: 320px;
    
 }
 .certificates {
-    display: flex;
-    max-width: 960px;
-    margin: 20px auto;
+    
+    margin: 30px 0 30px 0;
 }
 .sert {
-    width: 160px;
-    margin-right: 10px;
+   height: 138px;
+    margin: 5px;
 }
 .img-sert {
    width: 100%;
-   border: 1px solid;
+   height: 100%;
+  border: solid rgb(43, 23, 17);
 }
