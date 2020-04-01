@@ -64,12 +64,12 @@
                                         alt="VK"></a>
                             </li>
                             <li>
-                                <a href="https://instagram.com/nata_wax" target="_blank"><img src="images/social/instagram.svg"
-                                        alt="inst"></a>
+                                <a href="https://instagram.com/nata_wax" target="_blank"><img
+                                        src="images/social/instagram.svg" alt="inst"></a>
                             </li>
                             <li>
-                                <a href="https://wa.me/79130698761" target="_blank"><img src="images/social/whatsapp.svg"
-                                        alt="Whatsapp"></a>
+                                <a href="https://wa.me/79130698761" target="_blank"><img
+                                        src="images/social/whatsapp.svg" alt="Whatsapp"></a>
                             </li>
                         </ul>
                     </div>
@@ -259,9 +259,9 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
                         <div class="about-me-text">
-                        <h6>Привет, меня зовут Наталья!</h6>
-                        <h7>Я занимаюсь Ваксингом и Шугарингом, уже более 3 лет.</h7>
-                    </div><!-- /.about-me-text -->
+                            <h6>Привет, меня зовут Наталья!</h6>
+                            <h7>Я занимаюсь Ваксингом и Шугарингом, уже более 3 лет.</h7>
+                        </div><!-- /.about-me-text -->
                     </div><!-- /.col-12 -->
                 </div><!-- /.row -->
             </div><!-- about-me -->
@@ -269,32 +269,39 @@
     </section>
     <section>
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-8 offset-md-2">
-                    <div class="certificates">
-                        <div class="sert">
-                          <a href="images/Certificates/sert1.jpg" target="_blank" class="">
-                            <img class="img-sert" src="images/Certificates/sert1.jpg" alt="сертификат"></a>  
-                        </div><!-- /.sert -->
-                        <div class="sert">
-                            <a href="images/Certificates/sert2.jpg"target="_blank" class="">
-                                <img class="img-sert" src="images/Certificates/sert2.jpg" alt="сертификат"></a> 
-                        </div><!-- /.sert -->
-                        <div class="sert">
-                            <a href="images/Certificates/sert1.jpg"target="_blank" class="">
-                                <img class="img-sert" src="images/Certificates/sert1.jpg" alt="сертификат"></a> 
-                        </div><!-- /.sert -->
-                        <div class="sert">
-                            <a href="images/Certificates/sert2.jpg" target="_blank"class="">
-                                <img class="img-sert" src="images/Certificates/sert2.jpg" alt="сертификат"></a> 
-                        </div><!-- /.sert -->
-                        <div class="sert">
-                            <a href="images/Certificates/sert1.jpg"target="_blank" class="">
-                                <img class="img-sert" src="images/Certificates//sert1.jpg" alt="сертификат"></a> 
-                        </div><!-- /.sert --> 
-                    </div><!-- /.certificates -->
+            <div class="certificates">
+                <div class="row">
+                    <div class="col-12 col-md-8 offset-md-2">
+                        <div class="sliders">
+                            <div class="sert">
+                                <a href="images/Certificates/sert1.jpg" target="_blank" class="">
+                                    <img class="img-sert" src="images/Certificates/sert1.jpg" alt="сертификат"></a>
+                            </div><!-- /.sert -->
+                            <div class="sert">
+                                <a href="images/Certificates/sert2.jpg" target="_blank" class="">
+                                    <img class="img-sert" src="images/Certificates/sert2.jpg" alt="сертификат"></a>
+                            </div><!-- /.sert -->
+                            <div class="sert">
+                                <a href="images/Certificates/sert1.jpg" target="_blank" class="">
+                                    <img class="img-sert" src="images/Certificates/sert1.jpg" alt="сертификат"></a>
+                            </div><!-- /.sert -->
+                            <div class="sert">
+                                <a href="images/Certificates/sert2.jpg" target="_blank" class="">
+                                    <img class="img-sert" src="images/Certificates/sert2.jpg" alt="сертификат"></a>
+                            </div><!-- /.sert -->
+                            <div class="sert">
+                                <a href="images/Certificates/sert1.jpg" target="_blank" class="">
+                                    <img class="img-sert" src="images/Certificates//sert1.jpg" alt="сертификат"></a>
+                            </div><!-- /.sert -->
+                        </div><!-- /.sliders -->
+                        <div class="arrows">
+                            <div class="arrow-left"><img src="images/Certificates/arrow-left.svg" alt=""> </div>
+                            <div class="arrow-right"><img src="images/Certificates/arrow-right.svg" alt=""> </div>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
+            </div><!-- /.certificates -->
         </div><!-- /.container -->
     </section>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -306,34 +313,37 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/slick.min.js"></script>
-       
-       <script>
-           $(document).ready(function(){
-  $('.certificates').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    }
-    
-    
-  ]
-  });
-});
-        </script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.sliders').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                prevArrow: $('.arrow-left'),
+                nextArrow: $('.arrow-right'),
+
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    }
+
+
+                ]
+            });
+        });
+    </script>
 </body>
 
 </html>
