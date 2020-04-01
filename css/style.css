@@ -27,8 +27,10 @@ body {
     color: rgb(43, 23, 17); 
 }
 .nav-phone {
-    margin-left: 55px;
+    width:160px ;
+    margin-left:  55px;
     text-align: center;
+    
 }
 
 .phone {
@@ -36,16 +38,22 @@ body {
     margin: 0;
 }
 .a-phone {
-    background-color:rgb(43, 23, 17);
+    background-color:#ab0156;
     border-radius: 10px;
     height: 30px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
    
 }
 .record {
     text-decoration: none;
     color:  #ECDECE;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
+    
 }
 
 .hero {
