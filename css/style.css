@@ -48,7 +48,7 @@ body {
     
    
 }
-.record {
+.btn-phone {
     text-decoration: none;
     color:  #ECDECE;
     font-size: 15px;
@@ -66,6 +66,7 @@ body {
 .socials {
     display: flex;
     list-style-type: none;
+    padding: 20px 10px;
 }
 .socials li {
     margin-right: 10px;
@@ -76,9 +77,7 @@ body {
     font-weight: bold;
     text-shadow: 4px 4px 4px rgba(85, 81, 83, 0.5);
 }
-.socials {
-    padding: 20px 10px;
-}
+
  @media (max-width:768px){
      .hero{
          min-height: 320px;
@@ -237,4 +236,43 @@ body {
     display: flex;
     margin: auto;
     justify-content: center;
+}
+.records {
+    background-color: rgba(219, 178, 143, 0.2);
+    padding: 30px 0;
+}
+.record-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.record-phone {
+   width: 220px;
+   margin:30px auto;
+
+   
+}
+.record-phone-btn {
+    display: flex;
+   justify-content: center;
+    background-color:rgb(43, 23, 17); 
+    border-radius: 10px;
+
+}
+.record-phone-btn a {
+    color: #ECDECE ;
+    padding: 10px;
+    
+    font-weight: 600;
+}
+.record-socials {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 20px;
+    padding: 0;
+}
+.record-socials li {
+    margin: 5px;
 }
