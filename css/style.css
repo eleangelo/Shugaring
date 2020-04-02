@@ -205,7 +205,7 @@ body {
 }
 .service-record {
     width: 110px;
-    margin:  auto;
+    margin: 0 auto;
     background-color: #ab0156;
     color: #ECDECE; 
     padding: 5px;
@@ -219,7 +219,7 @@ body {
    
 }
 .service-record1 {
-    margin:  auto;
+    margin: 0 auto;
     text-align: center;
     font-size: 14px;
     font-weight: 600;
@@ -261,12 +261,32 @@ body {
   
   
 }
-.arrows {
-    max-width: 100px;
-    display: flex;
-    margin: auto;
-    justify-content: center;
+.slick-slider {
+    position: static;
+    outline: none;
 }
+.arrow {
+    position: absolute;
+    top:50%;
+    z-index: 99;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-size: 100%;
+    text-decoration: none;
+   
+}
+.prev {
+   
+    background: url(../images/Certificates/arrow-left.svg) center no-repeat;  
+    left:0;
+}
+.next { 
+    background: url(../images/Certificates/arrow-right.svg) center no-repeat;
+    right: 0;
+}
+
+
 .records {
     background-color: rgba(219, 178, 143, 0.2);
     padding: 30px 0;
@@ -288,13 +308,16 @@ body {
     justify-content: center;
     background-color:rgb(43, 23, 17); 
     border-radius: 10px;
+    
 
 }
 .record-phone-btn a {
     color: #ECDECE ;
     padding: 10px;
-    
+   text-decoration: none; 
     font-weight: 600;
+   text-decoration: underline;
+    color: #ECDECE 
 }
 .record-socials {
     display: flex;
@@ -302,6 +325,7 @@ body {
     justify-content: center;
     margin: 20px;
     padding: 0;
+    
 }
 .record-socials li {
     margin: 5px;

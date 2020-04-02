@@ -300,10 +300,10 @@
                                     <img class="img-sert" src="images/Certificates//sert1.jpg" alt="сертификат"></a>
                             </div><!-- /.sert -->
                         </div><!-- /.sliders -->
-                        <div class="arrows">
+                       <!-- <div class="arrows">
                             <div class="arrow-left"><img src="images/Certificates/arrow-left.svg" alt=""> </div>
                             <div class="arrow-right"><img src="images/Certificates/arrow-right.svg" alt=""> </div>
-                        </div>
+                        </div>-->
                     </div>
 
                 </div>
@@ -355,11 +355,11 @@
     <script>
         $(document).ready(function () {
             $('.sliders').slick({
+                iinfinite: true,
                 slidesToShow: 3,
+                prevArrow: '<button class="prev arrow"></button>',
+                nextArrow: '<button class="next arrow"></button>',
                 slidesToScroll: 1,
-                prevArrow: $('.arrow-left'),
-                nextArrow: $('.arrow-right'),
-
                 responsive: [
                     {
                         breakpoint: 992,
