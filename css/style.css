@@ -190,6 +190,7 @@ body {
     box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.5);
     background-color: rgba(219, 178, 143, 0.2);
     padding-bottom: 10px;
+    text-align: center;
 }
 .service-subtitle {
     text-align: center;
@@ -277,16 +278,51 @@ body {
     right: 0;
 }
 
+.footer-contakts {
+    background-color:  rgb(43, 23, 17);
+    color: #ECDECE; 
+    padding: 5px;
+   
+}
+.footer-title {
+    text-align: center;
+    margin:50px ;
+    
+}
 
+.footer-adress,
+.footer-mode,
+.footer-phone {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.footer-adress img,
+.footer-mode img,
+.footer-phone img {
+    width: 25px;
+    height: 25px;;
+    margin-right: 20px;
+   text-align: center;
+   line-height: 20px;
+}
+.footer-phone a{
+    color: #ECDECE;
+    text-decoration: none;
+}
+.footer-phone {
+    margin-bottom: 60px;
+}
 .records {
     background-color: rgba(219, 178, 143, 0.2);
-    padding: 30px 0;
+    padding: 20px 0;
 }
 .record-title {
     text-align: center;
+    color: #ab0156;
     font-size: 20px;
     font-weight: 500;
-    margin: 10px 0 30px 0
+    margin: 10px 0 20px 0
 }
 .record-phone {
    width: 220px;
@@ -296,17 +332,17 @@ body {
 .record-phone-btn {
     display: flex;
     justify-content: center;
-    background-color:rgb(43, 23, 17); 
+    background-color:#ab0156; 
     border-radius: 10px;
     
 }
 .record-phone-btn a {
     color: #ECDECE ;
-    padding: 8px;
+    padding: 5px;
     text-decoration: none; 
     font-weight: 500;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 14px;
    
 }
 .record-socials {
