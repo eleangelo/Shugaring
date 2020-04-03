@@ -286,7 +286,7 @@ body {
 }
 .footer-title {
     text-align: center;
-    margin:50px ;
+    margin:35px 50px ;
     
 }
 
@@ -308,18 +308,16 @@ body {
 }
 .footer-phone a{
     color: #ECDECE;
-    text-decoration: none;
+    
 }
-.footer-phone {
-    margin-bottom: 60px;
-}
+
 .records {
     background-color: rgba(219, 178, 143, 0.2);
     padding: 20px 0;
 }
 .record-title {
     text-align: center;
-    color: #ab0156;
+    color:rgb(43, 23, 17);
     font-size: 20px;
     font-weight: 500;
     margin: 10px 0 20px 0
