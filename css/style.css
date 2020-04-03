@@ -45,17 +45,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-   
 }
+
 .btn-phone {
     text-decoration: none;
     color:  #ECDECE;
     font-size: 15px;
     font-weight: 600;
-    
 }
-
+.btn-phone:hover {
+    text-decoration: none;
+    color:  #ECDECE;
+}
 .hero {
     /*padding-top: 58.5%;*/
     background: #a78e74 url(../images/hero/img.png);
@@ -69,7 +70,7 @@ body {
     padding: 20px 10px;
 }
 .socials li {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 .title {
     font-size:30px;
@@ -136,6 +137,9 @@ body {
     color: rgb(43, 23, 17);
     font-weight: 600;
     text-decoration-line: underline;
+}
+.price-services:hover {
+    color:#ab0156;
 }
 .direction-text-subtitle {
     font-weight: 600;
@@ -208,7 +212,7 @@ body {
     margin: 0 auto;
     background-color: #ab0156;
     color: #ECDECE; 
-    padding: 5px;
+    padding: 3px;
     border-radius: 12px;
     font-size: 13px;    
     font-weight: 600;
@@ -218,20 +222,7 @@ body {
     color: #ECDECE;
    
 }
-.service-record1 {
-    margin: 0 auto;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 600;
-   border-bottom: 3px solid;
-   color: #ab0156;
-   width: 100px;
-}
-.service-record1 a{
-    color: #ab0156;
-    text-decoration: none;
-    
-}
+
 .img-about {
     width: 100%;
     min-height: 220px;
@@ -295,13 +286,12 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
-    
+    margin: 10px 0 30px 0
 }
 .record-phone {
    width: 220px;
-   margin:30px auto;
+   margin:0 auto;
 
-   
 }
 .record-phone-btn {
     display: flex;
@@ -309,24 +299,29 @@ body {
     background-color:rgb(43, 23, 17); 
     border-radius: 10px;
     
-
 }
 .record-phone-btn a {
     color: #ECDECE ;
-    padding: 10px;
-   text-decoration: none; 
-    font-weight: 600;
-   text-decoration: underline;
-    color: #ECDECE 
+    padding: 8px;
+    text-decoration: none; 
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 16px;
+   
 }
 .record-socials {
     display: flex;
     list-style-type: none;
     justify-content: center;
-    margin: 20px;
+    margin: 5px;
     padding: 0;
     
 }
 .record-socials li {
-    margin: 5px;
+    margin: 2px;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
 }
