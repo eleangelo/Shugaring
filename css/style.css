@@ -353,3 +353,12 @@ button:active,
 button:focus {
     outline: none;
 }
+.back {
+    position: absolute;
+    right:45%;
+    padding: 20px 0;
+    font-weight: 600; 
+}
+.back a {
+    color:rgb(43, 23, 17);
+}
