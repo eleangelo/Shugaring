@@ -67,7 +67,7 @@ body {
 .socials {
     display: flex;
     list-style-type: none;
-    padding: 20px 10px;
+    padding: 20px ;
 }
 .socials li {
     margin-right: 8px;
@@ -125,26 +125,27 @@ body {
     font-weight: 600;
 }
 .direction-block {
-   
-    padding:40px 20px;
+    margin: 10px 30px 10px 0;
    
     
 }
 .price-services {
     display: flex;
-    margin-top: 10px;
+    margin: 10px 0;
     justify-content: center;
-    color: rgb(43, 23, 17);
+    color:#ab0156;
     font-weight: 600;
     text-decoration-line: underline;
 }
-.price-services:hover {
+.price-services:hover{
     color:#ab0156;
+    text-decoration: none;
+
 }
 .direction-text-subtitle {
     font-weight: 600;
     font-size: 16px;
-   
+  
 }
 .direction-text {
     font-size: 14px;
@@ -170,9 +171,7 @@ body {
     display: block;
     object-fit: cover;
     max-width: 100%;
-
   }
-
 
 .services {
     padding: 20px 10px;
@@ -207,6 +206,7 @@ body {
     text-align: center;
     font-size: 14px;
     font-weight: 600;
+    margin: 10px 0;
 }
 .service-record {
     width: 110px;
@@ -221,7 +221,7 @@ body {
 }
 .service-record a {
     color: #ECDECE;
-   
+    text-decoration: none;
 }
 
 .img-about {
@@ -250,8 +250,6 @@ body {
    width: 100%;
    height: 100%;
    object-fit:cover;
-  
-  
 }
 .slick-slider {
     position: static;
@@ -259,8 +257,8 @@ body {
 }
 .arrow {
     position: absolute;
-    top:50%;
-    z-index: 99;
+    top:45%;
+    z-index: 80;
     width: 24px;
     height: 24px;
     border: none;
@@ -278,36 +276,33 @@ body {
     right: 0;
 }
 
-.footer-contakts {
+.contakts {
     background-color:  rgb(43, 23, 17);
     color: #ECDECE; 
     padding: 5px;
    
 }
-.footer-title {
+.contakts-title {
     text-align: center;
     margin:35px 50px ;
     
 }
 
-.footer-adress,
-.footer-mode,
-.footer-phone {
+.contakt-item {
     display: flex;
     margin-bottom: 30px;
     justify-content: center;
 }
-.footer-adress img,
-.footer-mode img,
-.footer-phone img {
+.contakt-item img {
     width: 25px;
     height: 25px;;
-    margin-right: 20px;
+    margin-right: 20px; 
    text-align: center;
    line-height: 20px;
 }
-.footer-phone a{
+.contakt-item a{
     color: #ECDECE;
+    text-decoration: none;
     
 }
 
@@ -339,8 +334,7 @@ body {
     padding: 5px;
     text-decoration: none; 
     font-weight: 500;
-    text-decoration: underline;
-    font-size: 14px;
+    font-size: 16px;
    
 }
 .record-socials {
