@@ -1,12 +1,7 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="80px" height="80px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 500 500"
- xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  
- </defs>
- <g id="Слой_x0020_1">
-  <metadata id="CorelCorpID_0Corel-Layer"/>
+<svg xmlns="http://www.w3.org/2000/svg"  width="80px" height="80px" viewBox="0 0 500 500">
+ 
+ <g>
   <path  fill="rgb(43, 23, 17)" d="M177 90l7 4c-3,4 6,14 4,18 -8,14 -14,24 -21,38 -40,86 -49,179 -7,287l-17 -11c-42,-105 -37,-167 6,-258 7,-15 19,-64 28,-78z"/>
   <path fill="rgb(43, 23, 17)" d="M354 96l-8 -4c1,3 -9,3 -1,26 37,103 48,202 10,326l12 -10c34,-108 34,-162 3,-259 -3,-11 -12,-68 -16,-79z"/>
   <path fill="rgb(43, 23, 17)"  d="M235 312l27 13 24 -6c-6,10 -23,18 -23,27 -3,33 -9,63 -23,91l-9 -2c16,-38 34,-85 4,-123z"/>
