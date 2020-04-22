@@ -322,14 +322,20 @@ body {
 
 .contakt-item {
     display: flex;
-    margin-bottom: 30px;
     justify-content: center;
 }
+.contakt-item:not(:last-child) {
+    margin-bottom: 30px;
+}
 
+@media (max-width:768px) {
+    .contakt-item:last-child {
+        margin-bottom: 30px;  
+    }  
+}
 .contakt-item img {
     width: 25px;
     height: 25px;
-    ;
     margin-right: 20px;
     text-align: center;
     line-height: 20px;
@@ -339,7 +345,10 @@ body {
     color: #ECDECE;
     text-decoration: none;
 }
-
+.maps {
+    border: 5px solid black;
+    height: 350px;
+}
 .records {
     background-color: rgba(219, 178, 143, 0.2);
     padding: 20px 0;
