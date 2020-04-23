@@ -244,7 +244,11 @@
                             <p class="service-subtitle">Подмышки</p>
                             <p class="time">Время выполнения: 15 минут</p>
                             <p class="price">500 руб.</p>
-                            <p class="service-record"><a href="#records">Записаться</a></p>
+                            <button class="button-service" id="record-button" >
+                                <span class="servise-text">Записаться</span>
+                            </button>
+
+                            <!-- <p class="service-record"><a href="#records">Записаться</a></p> -->
                         </div>
                         <!-- /.service -->
                     </div>
@@ -372,7 +376,8 @@
 
                     <div class="col-12 col-md-6 col-lg-6">
                         <div class="maps">
-                            <script  src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A474c75c09c4577f35a028cf8d97ff5f74d7aea6f8d737de8489da54a3d26ff97&amp;lang=ru_RU&amp;scroll=false"></script>
+                            <script type="text/javascript" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;coordorder=latlong&amp;onload=t_handleYandexApiReady_156448786&amp;apikey=c5c07cac-1016-4fbb-a294-314b2c221b33"></script>
+                            <!-- <script  src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A474c75c09c4577f35a028cf8d97ff5f74d7aea6f8d737de8489da54a3d26ff97&amp;lang=ru_RU&amp;scroll=false"></script> -->
                         </div>
                     </div>
                 </div>
@@ -400,6 +405,21 @@
             </div><!-- /.records -->
         </div><!-- /.container -->
     </footer>
+<div class="modal">
+    <div class="modal-form">
+        <div class="form-header">
+            <h3 class="form-title">Онлайн запись</h3>
+        </div><!-- /.form-header -->
+        <form action="#">
+            <input type="text" name="username" required  class="input-request" placeholder="Ваше имя">
+            <input type="tel" name="phone" required class="input-request phone" placeholder="Ваш телефон">
+            <input type="text" class="input-request" placeholder="Желаемая дата и время">
+            <input type="text" class="input-request" placeholder="Комментарии">
+            <button class="button-request">Отправить</button>
+            <span class="from-discription">Нажимая кнопку «Отправить», вы соглашаетесь с условиями 152-ФЗ</span>
+        </form>
+    </div><!-- /.modal-form -->
+</div><!-- /.modal -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -410,10 +430,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
 
     <script>
         $(document).ready(function () {
+            // Маска для телефона в поле формы заявки
+            $('.phone').mask('+7 (999) 999-99-99')
+
+
+            // Скрипт слайдера
             $('.sliders').slick({
                 iinfinite: true,
                 slidesToShow: 3,
