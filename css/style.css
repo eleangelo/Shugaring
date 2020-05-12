@@ -57,14 +57,13 @@ body {
 
 .btn-phone {
   text-decoration: none;
-  color: #ecdece;
+  color: rgb(43, 23, 17);
   font-size: 15px;
-  font-weight: 600;
 }
 
 .btn-phone:hover {
   text-decoration: none;
-  color: #ecdece;
+  color: rgb(43, 23, 17);
 }
 
 .hero {
@@ -248,18 +247,19 @@ body {
   font-weight: 600;
   text-align: center;
 }
+
 .button-service {
-    width: 110px;
-    margin: 0 auto;
-    background-color: #ab0156;
-    color: #ecdece;
-    padding: 3px;
-    border-radius: 12px;
-    border:none;
-    font-size: 13px;
-    line-height: 1.5;
-    font-weight: 600;
-    text-align: center;  
+  width: 110px;
+  margin: 0 auto;
+  background-color: #ab0156;
+  color: #ecdece;
+  padding: 3px;
+  border-radius: 12px;
+  border: none;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 600;
+  text-align: center;
 }
 
 .service-record a {
@@ -296,9 +296,18 @@ body {
   object-fit: cover;
 }
 
-.slick-slider {
-  position: static;
-  outline: none;
+.swiper-container {
+ padding: 50px;
+} 
+
+.next,
+.prev {
+  color: #ab0156;
+ 
+}
+
+.swiper-pagination-bullet-active {
+  background: #ab0156; 
 }
 
 .arrow {
@@ -310,16 +319,6 @@ body {
   border: none;
   background-size: 100%;
   text-decoration: none;
-}
-
-.prev {
-  background: url(../images/Certificates/arrow-left.svg) center no-repeat;
-  left: 0;
-}
-
-.next {
-  background: url(../images/Certificates/arrow-right.svg) center no-repeat;
-  right: 0;
 }
 
 .contakts {
@@ -337,6 +336,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .contakt-item:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -350,12 +350,14 @@ body {
 }
 
 .contakt-item a {
-  color: #ecdece;
+  color: rgba(236, 222, 206, 0.37);
   text-decoration: none;
 }
+
 .maps {
   height: 350px;
 }
+
 .records {
   background-color: rgba(219, 178, 143, 0.2);
   padding: 20px 0;
@@ -419,6 +421,7 @@ button:focus {
   border: 1px solid rgb(43, 23, 17);
   border-radius: 25px;
 }
+
 @media (max-width: 768px) {
   .contakt-item:last-child {
     margin-bottom: 30px;
@@ -433,9 +436,11 @@ button:focus {
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
+
 .is-open {
-display: flex;
+  display: flex;
 }
+
 .modal-form {
   max-width: 380px;
   width: 95%;
@@ -446,15 +451,25 @@ display: flex;
   padding: 30px;
   border-radius: 5px;
 }
+
 .form-header {
   text-align: center;
   padding-bottom: 20px;
 }
+
 .form-title {
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
 }
+
+.form-subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .input-request {
   width: 100%;
   max-width: 345px;
@@ -466,6 +481,7 @@ display: flex;
   line-height: 17px;
   border-radius: 5px;
 }
+
 .button-request {
   width: 100%;
   max-width: 345px;
@@ -479,10 +495,13 @@ display: flex;
   margin-bottom: 20px;
   border-radius: 5px;
 }
+
 .from-discription {
-    display: inline-block;
-    font-size: 10px;
-    line-height: 12px;
-    font-weight: bold;
-    text-align: center;
+  display: inline-block;
+  margin: auto;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
 }

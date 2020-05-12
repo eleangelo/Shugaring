@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap" rel="stylesheet">--> 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Shugaring</title>
 </head>
@@ -25,8 +25,8 @@
                 </div>
                 <!-- /.block-logo -->
                 <div class="nav-phone">
-                    <p class="phone">+7(913)069-87-61</p>
-                    <div class="a-phone"><a class="btn-phone" href="tel:+79130698761">Записаться</a></div>
+                        <img src="images/icon/Group.svg"/>
+                        <a class="btn-phone" href="tel:+79130698761">+7(913)069-87-61</a>
                 </div>
                 <!-- /.nav-phone -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -183,17 +183,21 @@
                             <p class="service-subtitle">Бикини классическое</p>
                             <p class="time">Время выполнения: 15 минут</p>
                             <p class="price">1000 руб.</p>
-                            <p class="service-record"><a href="#records">Записаться</a></p>
+                            <button class="button-service record-button">
+                                <span class="servise-text">Записаться</span>
+                            </button>
                         </div>
+                        <!-- /.service -->
                     </div>
-                    <!-- /.service -->
                     <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <div class="service">
                             <img src="images/bikiniG.svg" alt="2">
                             <p class="service-subtitle">Бикини глубокое</p>
                             <p class="time">Время выполнения: 45 минут</p>
                             <p class="price">1400 руб.</p>
-                            <p class="service-record"><a href="#records">Записаться</a></p>
+                            <button class="button-service record-button">
+                                <span class="servise-text">Записаться</span>
+                            </button>
                         </div>
                         <!-- /.service -->
                     </div>
@@ -203,7 +207,9 @@
                             <p class="service-subtitle">Ноги полностью</p>
                             <p class="time">Время выполнения: 50 минут</p>
                             <p class="price">1800 руб.</p>
-                            <p class="service-record"><a href="#records">Записаться</a></p>
+                            <button class="button-service record-button">
+                                <span class="servise-text">Записаться</span>
+                            </button>
                         </div>
                         <!-- /.service -->
                     </div>
@@ -213,7 +219,9 @@
                             <p class="service-subtitle">Голени</p>
                             <p class="time">Время выполнения: 10 минут</p>
                             <p class="price">900 руб.</p>
-                            <p class="service-record"><a href="#records">Записаться</a></p>
+                            <button class="button-service record-button">
+                                <span class="servise-text">Записаться</span>
+                            </button>
                         </div>
                         <!-- /.service -->
                     </div>
@@ -223,17 +231,21 @@
                             <p class="service-subtitle">Руки полностью</p>
                             <p class="time">Время выполнения: 15 минут</p>
                             <p class="price">800 руб.</p>
-                            <p class="service-record"><a href="#records">Записаться</a></p>
+                            <button class="button-service record-button" >
+                                <span class="servise-text">Записаться</span>
+                            </button>
                         </div>
                         <!-- /.service -->
                     </div>
                     <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <div class="service">
                             <img src="images/yagodici.svg" alt="6">
-                            <p class="service-subtitle">Ягодицы</p>
+                            <p class="service-subtitle ">Ягодицы</p>
                             <p class="time">Время выполнения: 15 минут</p>
                             <p class="price">500 руб.</p>
-                            <p class="service-record"><a href="#records">Записаться</a></p>
+                            <button class="button-service record-button" >
+                                <span class="servise-text">Записаться</span>
+                            </button>
                         </div>
                     </div>
                     <!--/.service-->
@@ -244,24 +256,25 @@
                             <p class="service-subtitle">Подмышки</p>
                             <p class="time">Время выполнения: 15 минут</p>
                             <p class="price">500 руб.</p>
-                            <button class="button-service" id="record-button" >
+                            <button class="button-service record-button" >
                                 <span class="servise-text">Записаться</span>
                             </button>
-
-                            <!-- <p class="service-record"><a href="#records">Записаться</a></p> -->
                         </div>
                         <!-- /.service -->
                     </div>
                     <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <div class="service">
-                            <img src="images/lico.svg" alt="8">
+                            <img src="images/lico.svg" alt="7">
                             <p class="service-subtitle">Лицо</p>
                             <p class="time">Время выполнения: 15 минут</p>
                             <p class="price">300 руб.</p>
-                            <p class="service-record"><a href="#records">Записаться</a></p>
+                            <button class="button-service record-button" >
+                                <span class="servise-text">Записаться</span>
+                            </button>
                         </div>
                         <!-- /.service -->
                     </div>
+                    
                     <!--<div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <div class="service">
                             <img src="images/" alt="">
@@ -316,34 +329,40 @@
             <div class="certificates">
                 <div class="row">
                     <div class="col-12 col-md-8 offset-md-2">
-                        <div class="sliders">
-                            <div class="sert">
-                                <a href="images/Certificates/sert1.jpg" target="_blank" class="">
-                                    <img class="img-sert" src="images/Certificates/sert1.jpg" alt="сертификат"></a>
+                        <div class="swiper-container">
+                            <div class="sliders swiper-wrapper">
+                                <div class="sert swiper-slide">
+                                    <a href="images/Certificates/sert1.jpg" target="_blank" class="">
+                                        <img class="img-sert" src="images/Certificates/sert1.jpg" alt="сертификат"></a>
+                                </div>
+                                <!-- /.sert -->
+                                <div class="sert swiper-slide">
+                                    <a href="images/Certificates/sert2.jpg" target="_blank" class="">
+                                        <img class="img-sert" src="images/Certificates/sert2.jpg" alt="сертификат"></a>
+                                </div>
+                                <!-- /.sert -->
+                                <div class="sert swiper-slide">
+                                    <a href="images/Certificates/sert1.jpg" target="_blank" class="">
+                                        <img class="img-sert" src="images/Certificates/sert1.jpg" alt="сертификат"></a>
+                                </div>
+                                <!-- /.sert -->
+                                <div class="sert swiper-slide">
+                                    <a href="images/Certificates/sert2.jpg" target="_blank" class="">
+                                        <img class="img-sert" src="images/Certificates/sert2.jpg" alt="сертификат"></a>
+                                </div>
+                                <!-- /.sert -->
+                                <div class="sert swiper-slide">
+                                    <a href="images/Certificates/sert1.jpg" target="_blank" class="">
+                                        <img class="img-sert" src="images/Certificates//sert1.jpg" alt="сертификат"></a>
+                                </div>
+                                <!-- /.sert -->
                             </div>
-                            <!-- /.sert -->
-                            <div class="sert">
-                                <a href="images/Certificates/sert2.jpg" target="_blank" class="">
-                                    <img class="img-sert" src="images/Certificates/sert2.jpg" alt="сертификат"></a>
-                            </div>
-                            <!-- /.sert -->
-                            <div class="sert">
-                                <a href="images/Certificates/sert1.jpg" target="_blank" class="">
-                                    <img class="img-sert" src="images/Certificates/sert1.jpg" alt="сертификат"></a>
-                            </div>
-                            <!-- /.sert -->
-                            <div class="sert">
-                                <a href="images/Certificates/sert2.jpg" target="_blank" class="">
-                                    <img class="img-sert" src="images/Certificates/sert2.jpg" alt="сертификат"></a>
-                            </div>
-                            <!-- /.sert -->
-                            <div class="sert">
-                                <a href="images/Certificates/sert1.jpg" target="_blank" class="">
-                                    <img class="img-sert" src="images/Certificates//sert1.jpg" alt="сертификат"></a>
-                            </div>
-                            <!-- /.sert -->
+                            <!-- /.sliders-->
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev prev"></div>
+                            <div class="swiper-button-next next"></div>
                         </div>
-                        <!-- /.sliders -->
+                        
                     </div>
                 </div>
             </div>
@@ -359,17 +378,17 @@
                     <div class="col-12 col-md-6 col-lg-6">
                         <h3 class="contakts-title">Приезжайте знакомиться</h3>
                         <div class="contakt-item">
-                            <img src="images/location.svg" alt="адрес">
+                            <img src="images/icon/location.svg" alt="адрес">
                             <span>г.Новосибирск<br><b>ул. Ленина 3/82</b></span>
 
                         </div>
                         <div class="contakt-item">
-                            <img src="images/time.svg" alt="график">
+                            <img src="images/icon/time.svg" alt="график">
                             <span>Режим работы:<br><b>с 10:00 до 18:00</b></span>
 
                         </div>
                         <div class="contakt-item">
-                            <img src="images/phone2.svg" alt="контакт">
+                            <img src="images/icon/phone_footer.svg" alt="контакт">
                             <span>Телефон:<br><a href="tel:+79130698761"><b>+7(913)069-87-61</b></a></span>
                         </div>
                     </div>
@@ -382,33 +401,15 @@
                     </div>
                 </div>
             </div>
-            <div class="records" id="records">
-                <h2 class="record-title">Записаться можно любым удобным для вас способом:</h2>
-                <div class="record-phone">
-                    <div class="record-phone-btn"><a href="tel:+79130698761"> +7 (913) 069-87-61</a></div>
-                </div><!-- /.record-phone -->
-                <ul class="record-socials">
-                    <li>
-                        <a href="https://vk.com/id42778168" target="_blank"><img src="images/social/vk.svg"
-                                alt="VK"></a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com/nata_wax" target="_blank"><img src="images/social/instagram.svg"
-                                alt="inst"></a>
-                    </li>
-                    <li>
-                        <a href="https://wa.me/79130698761" target="_blank"><img src="images/social/whatsapp.svg"
-                                alt="Whatsapp"></a>
-                    </li>
-                </ul>
-                <div class="back"><a href="#back">На главную</a></div>
-            </div><!-- /.records -->
+            <div class="back"><a href="#back">На главную</a></div>
+
         </div><!-- /.container -->
     </footer>
 <div class="modal">
     <div class="modal-form">
         <div class="form-header">
             <h3 class="form-title">Онлайн запись</h3>
+            <span class="form-subtitle"></span>
         </div><!-- /.form-header -->
         <form action="#">
             <input type="text" name="username" required  class="input-request request-user-name" placeholder="Ваше имя">
@@ -416,7 +417,7 @@
             <input type="text" required class="input-request request-text" placeholder="Желаемая дата и время">
             <input type="text" class="input-request" placeholder="Комментарии">
             <button class="button-request">Отправить</button>
-            <span class="from-discription">Нажимая кнопку «Отправить», вы соглашаетесь с условиями 152-ФЗ</span>
+            <span class="from-discription">Нажимая кнопку «Отправить», <br>вы соглашаетесь с условиями 152-ФЗ</span>
         </form>
     </div><!-- /.modal-form -->
 </div><!-- /.modal -->
@@ -429,51 +430,11 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>     
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
         <script src="js/main.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            // Маска для телефона в поле формы заявки
-            $('.phone').mask('+7 (999) 999-99-99')
-
-
-            // Скрипт слайдера
-            $('.sliders').slick({
-                iinfinite: true,
-                slidesToShow: 3,
-                prevArrow: '<button class="prev arrow"></button>',
-                nextArrow: '<button class="next arrow"></button>',
-                slidesToScroll: 1,
-                responsive: [
-                    {
-                        breakpoint: 992,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 576,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-
-                ]
-            });
-        });
-    </script>
+    
+   
 </body>
 
 </html>
