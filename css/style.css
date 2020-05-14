@@ -35,8 +35,8 @@ body {
 }
 
 .nav-phone {
-  width: 160px;
-  margin-left: 55px;
+  width: 165px;
+  margin-left: 50px;
   text-align: center;
 }
 
@@ -58,7 +58,8 @@ body {
 .btn-phone {
   text-decoration: none;
   color: rgb(43, 23, 17);
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .btn-phone:hover {
@@ -199,6 +200,7 @@ body {
 
 .services {
   padding: 20px 10px;
+  
 }
 
 .services-subtitle,
@@ -214,6 +216,7 @@ body {
   background-color: rgba(219, 178, 143, 0.2);
   padding-bottom: 10px;
   text-align: center;
+  min-height: 196px;
 }
 
 .service-subtitle {
@@ -303,7 +306,7 @@ body {
 .next,
 .prev {
   color: #ab0156;
- 
+
 }
 
 .swiper-pagination-bullet-active {
@@ -442,19 +445,23 @@ button:focus {
 }
 
 .modal-form {
+  position: relative;
   max-width: 380px;
   width: 95%;
   margin: auto;
   background: #f8ecec;
   border: 1px solid #cec2c2;
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
-  padding: 30px;
+  padding: 20px;
   border-radius: 5px;
 }
 
 .form-header {
+  
+  
   text-align: center;
   padding-bottom: 20px;
+
 }
 
 .form-title {
@@ -469,7 +476,24 @@ button:focus {
   font-weight: 600;
   text-transform: uppercase;
 }
+.form-subtitle::before {
+  content: '"'
+}
 
+.form-subtitle::after {
+  content: ' " '
+}
+
+.close-auth{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background:transparent;
+border:none;
+font-size: 35px;
+
+
+}
 .input-request {
   width: 100%;
   max-width: 345px;

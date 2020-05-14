@@ -1,34 +1,45 @@
 const recordButtons = document.querySelectorAll('.record-button'),
     modal = document.querySelector('.modal'),
+    closeAuth = document.querySelector('.close-auth'),
     buttonRequest = document.querySelector('.button-request'),
-    requestUserName = document.querySelector('.request-user-name'),
+    requestUserName = document.querySelector('.request-user-name'),  
     requestTel = document.querySelector('.request-tel'),
-    requestText = document.querySelector('.request-text');
+    requestText = document.querySelector('.request-text'),
+    subtitleHidden = document.querySelector('.subtitle-hidden');
+
+
+    
 
 for (recordButton of recordButtons) {
     recordButton.addEventListener('click', function (event) {
         
-        requestUserNameValue = '';
+        document.querySelector('.form').reset();
 
         modal.classList.add('is-open');
 
         let title = event.target.parentNode.parentNode.querySelector('.service-subtitle').textContent;     
         modal.querySelector('.form-subtitle').textContent = title; 
+        subtitleHidden.value = title;
+
     })
 }
 
 buttonRequest.addEventListener('click', function (event) {
 
-   
     if (form_is_correct()) {
-        modal.classList.remove('is-open')
-    }
-});
+        modal.classList.remove('is-open');      
+    }  
+})
+
 
 function form_is_correct() {
-    return (requestUserNameValue !== '' && requestTelValue !== '' && requestTextValue !== '')
-};
+    return (requestUserName.value !== '' && requestTel.value !== '' && requestText.value !== '')
+}
 
+
+closeAuth.addEventListener('click', function (event) {
+    modal.classList.remove('is-open');
+})
 
 window.addEventListener("DOMContentLoaded", function() {
     let keyCode;
@@ -70,26 +81,27 @@ function sliders() {
         effect: 'cube',
         grabCursor: true,
         cubeEffect: {
-          shadow: true,
-          slideShadows: true,
-          shadowOffset: 20,
-          shadowScale: 0.94,
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
         },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
-          },
+        },
     
     pagination: {
         el: '.swiper-pagination',
-      },
+    },
     // breakpoints: {
     //     992: {
     //         slidesPerView: 3, 
     //     }
     // }
-      })
+    })
 
 };
 
 sliders();
+
